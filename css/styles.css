@@ -107,3 +107,85 @@ h3{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ed);
     text-decoration: none;
   }
+
+  .fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+
+  .img-container {
+
+position: relative;
+
+width: 200px;
+
+}
+
+
+.image{
+
+width: 100%
+
+}
+.center {
+
+position: absolute;
+
+font-size: 20px;
+
+font-weight: bold;
+
+font-style: italic;
+
+color: white;
+
+top: 40%;
+
+left: 40%;
+
+}
